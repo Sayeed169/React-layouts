@@ -12,7 +12,7 @@ export default class Navigation extends React.Component {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav m-auto">
                         <li className="nav-item ml-5 active">
-                            <a className="nav-link text-white text-uppercase" href="#">Home <span className="sr-only">(current)</span></a>
+                            <a className="nav-link text-white text-uppercase" href="#">Home</a>
                         </li>
                         <li className="nav-item ml-5">
                             <a className="nav-link text-white text-uppercase" href="#">Link</a>
@@ -31,10 +31,6 @@ export default class Navigation extends React.Component {
                             <a className="nav-link text-white text-uppercase disabled" href="#">Disabled</a>
                         </li>
                     </ul>
-                    <form className="form-inline my-2 my-lg-0" onSubmit={(e) => this.handleFormSubmit(e)}>
-                        <input className="form-control mr-sm-2" name="search" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-                    </form>
                 </div>
             </nav>
         );
